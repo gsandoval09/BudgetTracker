@@ -1,8 +1,5 @@
 # BudgetTracker
-This Budget Tracker application is designed to function while a user is online and if they are offline. With the ability to update their budgeting information away from from and on the go, it is essential an app such as this one works properly to give users that power to work on the go without worry that their work wont be updated. The purpose for this application is exactly that.
-
-
-## Getting Started
+This Budget Tracker application is designed to function while a user is online and if they are offline. With the ability to update their budgeting information away from from and on the go, it is essential an app such as this one works properly to give users that power to work on the go without worry that their work wont be updated. The purpose for this application is exactly that. Updating your budget offline and/or lonline has never been easier!
 
 
 
@@ -20,15 +17,13 @@ This Budget Tracker application is designed to function while a user is online a
 NPM install in integrated terminal
 
 ```
-
-
-```
-
-
+run the command in your terminal: node server.js
 
 ```
 
 Open in your browser, Localhost3000 , and you will be directed to the functioning WorkoutTracker application.
+
+```
 
 ```
 
@@ -47,7 +42,7 @@ Open in your browser, Localhost3000 , and you will be directed to the functionin
 
 ## Deployed Link
 
-* [See Live Site]()
+* [See Live Site](https://agile-harbor-68092.herokuapp.com/)
 
 
 ## Authors
