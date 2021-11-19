@@ -1,14 +1,3 @@
-if ('serviceWorker' in window.navigator) {
-  window.navigator.serviceWorker.register('service-worker.js')
-  .then((reg) => {
-    //registration woked
-    console.log('Registration succeeded. Scope is' + reg.scope);
-  }).catch((error) => {
-    //registration failed
-    console.log('Registration failed with' + error);
-  });
-}
-
 let transactions = [];
 let myChart;
 
