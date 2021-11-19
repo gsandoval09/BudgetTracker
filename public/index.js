@@ -66,14 +66,14 @@ function populateChart() {
 
   myChart = new Chart(ctx, {
     type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        label: "Total Over Time",
-        fill: true,
-        backgroundColor: "#6666ff",
-        data
-      }]
+      data: {
+        labels,
+        datasets: [{
+            label: "Total Over Time",
+            fill: true,
+            backgroundColor: "#6666ff",
+            data
+        }]
     }
   });
 }
@@ -111,7 +111,7 @@ function sendTransaction(isAdding) {
   populateChart();
   populateTable();
   populateTotal();
-
+  
   // also send to server
   fetch("/api/transaction", {
     method: "POST",
@@ -121,7 +121,7 @@ function sendTransaction(isAdding) {
       "Content-Type": "application/json"
     }
   })
-  .then(response => {
+  .then(response => {    
     return response.json();
   })
   .then(data => {
@@ -142,20 +142,12 @@ function sendTransaction(isAdding) {
     nameEl.value = "";
     amountEl.value = "";
   });
-    
 }
 
-function saveRecord(transaction) {
-  
-  navigator.serviceWorker.controller.postMessage({ data: transaction });
-}
-
-function loadRecord(){}
-
-document.querySelector("#add-btn").onclick = function () {
+document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
 };
 
-document.querySelector("#sub-btn").onclick = function () {
+document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
