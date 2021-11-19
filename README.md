@@ -17,15 +17,12 @@ This Budget Tracker application is designed to function while a user is online a
 NPM install in integrated terminal
 
 ```
-run the command in your terminal: node server.js
+run the command in your terminal: *node server.js*
 
 ```
 
 Open in your browser, Localhost3000 , and you will be directed to the functioning WorkoutTracker application.
 
-```
-
-```
 
 ## Screenshot of site
 
