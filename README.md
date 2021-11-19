@@ -29,9 +29,9 @@ This Budget Tracker application is designed to function while a user is online a
 
 ![Image](console.png)
 
-![Image](online.png)
+![Image](onlineapp.png)
 
-![Image](offline.png)
+![Image](offlineapp.png)
 
 
 ## Built With
